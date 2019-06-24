@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cassidy's Webpage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <div class="main">
+    <header id="home">
+        <div class="nav-bar">
+            <a href="#home" class="btn">Home</a>
+            <a href="#about" class="btn">About</a>
+            <a href="#career" class="btn">Career</a>
+            <a href="#you" class="btn">About You</a>
+            <div class="dropdown">
+                <button class="dropbtn">Social Media</button>
+                    <div class="dropdown-content">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                    </div>
+            </div>
+        </div>
+        <div class="sidenav">
+            <a href="www.google.com" target="_blank">Google</a>
+            <a href="www.facebook.com" target="_blank">Facebook</a>
+            <a href="www.twitter.com" target="_blank">Twitter</a>
+        </div>
+        <h1><span id="hi">Hi</span>, I'm Cassidy!</h1>
+    </header>
+    <body>
+        <div class="about">
+            <h2 id="about">About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="career">
+            <h2 id="career">Career</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="form">
+            <h2 id="you">Tell me about yourself!</h2>
+        <form action="post" method="GET">
+            <div>
+                <label for="name">First Name:</label>
+                <input type="text" id="first-name">
+            </div>
+            <div>
+                <label for="name">Last Name:</label>
+                <input type="text" id="last-name">
+            </div>
+            <div>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender" value="female" checked>Female<br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="other">Other
+            </div>
+            <div>
+                <label for="sport">What's your favorite sport?</label><br>
+                <select name="sport">
+                    <option value="basketball">Basketball</option>
+                    <option value="baseball">Baseball</option>
+                    <option value="football">Football</option>
+                    <option value="golf">Golf</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>What do you like on your pizza?</legend>
+                    <input type="checkbox" name="topping" value="pepperoni" id="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" name="topping" value="pineapple" id="pineapple">
+                    <label for="pineapple">Pineapple</label>
+                    <input type="checkbox" name="topping" value="bacon" id="bacon">
+                    <label for="bacon">Bacon</label>
+                    <input type="checkbox" name="topping" value="ham" id="ham">
+                    <label for="ham">Ham</label>
+                    <input type="checkbox" name="topping" value="sausage" id="sausage">
+                    <label for="sausage">Sausage</label>
+                </fieldset>
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+        <div class="bottom">
+            <h2>Click <a href="another-page.html">here</a> for a list of people who have already completed this survey.</h2>
+        </div>
+    </body>
+    <footer>
+        <small>&copy; Copyright 2019</small>
+        <div id="social">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+        <div class="rainbow">
+                <h3>Oh, and here are the colors of the rainbow!</h3>
+                <ul>
+                    <li class="red">Red</li>
+                    <li class="orange">Orange</li>
+                    <li class="yellow">Yellow</li>
+                    <li class="green">Green</li>
+                    <li class="blue">Blue</li>
+                    <li class="indigo">Indigo</li>
+                    <li class="purple">Purple</li>
+                </ul>
+            </div>
+    </footer>
+    </div>
+</html>
