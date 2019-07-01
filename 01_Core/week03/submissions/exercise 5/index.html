@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 5</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+  	.container	{
+		width: 340px;
+		height: 200px;
+		position: relative;
+	  }
+
+	.interior  {
+		height: 100px;
+		width: 100px;
+		margin: 5px;
+		display: inline-block;
+	}
+
+	.div1	{
+		background-color: red;
+	}
+
+	.div2	{
+		background-color: orange;
+	}
+
+	.div3	{
+		background-color: yellow;
+	}
+
+	.div4	{
+		background-color: blue;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		border: 5px solid white;
+	}
+
+	.div5	{
+		background-color: violet;
+		position: absolute;
+		top: 50px;
+		left: 170px;
+		border: 5px solid white;
+	}
+
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>
