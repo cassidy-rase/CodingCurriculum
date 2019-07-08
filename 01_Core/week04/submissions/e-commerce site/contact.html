@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>Stop in and shop with us or leave us a message!</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="shirt3.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="">
+                        <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your name.." required>
+                        <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Your email.." required>
+                        <label for="phone">Phone:</label>
+                            <input type="text" id="phone" name="phone" placeholder="Your phone number.." required>
+                        <label for="contact">Preferred contact method:</label>
+                            <input type="radio" name="contact" value="email">Email
+                            <input type="radio" name="contact" value="phone">Phone <br><br>
+                        <label for="how">How did you hear about us?</label>
+                            <input type="checkbox" name="how" value="conference">Conference
+                            <input type="checkbox" name="how" value="tv">TV
+                            <input type="checkbox" name="how" value="radio">Radio
+                            <input type="checkbox" name="how" value="mouth">Word of mouth
+                            <input type="checkbox" name="how" value="other">Other <br><br>
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" placeholder="Comments" style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
