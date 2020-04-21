@@ -1,5 +1,5 @@
 body {
-    font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* NAVIGATION */
@@ -32,7 +32,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 17px; 
+  font-size: 17px;
   border: none;
   outline: none;
   color: white;
@@ -47,7 +47,7 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -60,7 +60,8 @@ body {
   text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover,
+.dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
 }
@@ -76,7 +77,7 @@ body {
 
 /* TOP OF PAGE */
 .main-home {
-  background-image: url('../img/main_photo.jpg');
+  background-image: url("../img/main_photo.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,7 +96,7 @@ body {
   padding-top: 25px;
 }
 
-.features { 
+.features {
   width: 100%;
   overflow: hidden;
   text-align: center;
@@ -128,7 +129,6 @@ body {
   background-color: #666;
   color: white;
 }
-
 
 /* SLIDESHOW SECTION */
 .wrap {
@@ -177,7 +177,7 @@ a {
 }
 
 a:hover {
-  color: rgb(237, 212, 119);  
+  color: rgb(237, 212, 119);
 }
 
 /* PRODUCTS PAGE SORT BY */
@@ -185,6 +185,7 @@ a:hover {
   width: 100%;
   overflow: hidden;
   text-align: center;
+  margin-top: 25px;
 }
 
 .sort select {
@@ -213,7 +214,7 @@ a:hover {
 }
 
 .main-right button:hover {
-  color: rgb(237, 212, 119);  
+  color: rgb(237, 212, 119);
 }
 
 .ingredients {
@@ -252,7 +253,7 @@ a:hover {
 }
 
 .category input {
-  border: 1px black solid
+  border: 1px black solid;
 }
 
 .search button {
@@ -310,7 +311,9 @@ a:hover {
 
 /* MOBILE */
 @media screen and (max-width: 800px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -318,7 +321,9 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -372,7 +377,7 @@ a:hover {
     transform: translateX(50%);
     float: none;
   }
-  
+
   .main-right {
     font-size: 5vw;
     text-align: center;
@@ -396,14 +401,14 @@ a:hover {
     width: 100%;
     overflow: hidden;
   }
-  
+
   .contact-left {
     max-width: 100%;
     transform: translateX(50%);
     padding-top: 25px;
     float: none;
   }
-  
+
   .contact-right {
     width: 100%;
     float: none;
@@ -417,7 +422,7 @@ a:hover {
   .add {
     text-align: center;
   }
-  
+
   .admin-container {
     background-color: lightgray;
     font-size: 4vw;
@@ -428,7 +433,8 @@ a:hover {
 
 /* HIDE ALL EXCEPT HOME */
 @media screen and (max-width: 800px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -439,7 +445,9 @@ a:hover {
 
 /* RESPONSIVE CLASS ADDED TO TOPNAV W JS WHEN ICON CLICKED. DISPLAYS LINKS VERTICALLY */
 @media screen and (max-width: 800px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -450,8 +458,12 @@ a:hover {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
