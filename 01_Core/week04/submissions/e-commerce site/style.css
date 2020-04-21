@@ -1,0 +1,182 @@
+body    {
+    width: 1200px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li a {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #51545B;
+    font-size: 18px;
+    color: white;
+}
+
+/* CONTAINERS */
+
+.container1 {
+    background-color: #51545B;
+    position: absolute;
+    color: white;
+    padding: 5px;
+    width: 400px;
+    border: 5px solid white;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    text-align: center;     
+}
+
+.container2 img {
+    width: 1200px;
+    height: 400px;
+    position: relative;
+}
+
+.container3 {
+    color: #51545B;
+    text-align: center;
+}
+
+.container3 img {
+    width: 400px;
+    height: 150px;
+    
+}
+
+.container4 {
+    background-color: #51545B;
+    padding: 25px;
+    margin: 20px 0px;
+    color: white;
+}
+
+/* FEATURES */
+.feature    {
+    display: inline-block;
+}
+
+.container3 h1  {
+    letter-spacing: 5px;
+}
+
+.feature img    {
+    width: 250px;
+    display: inline-block;
+    margin: 15px;
+}
+
+button  {
+    display: block;
+}
+
+/* FOOTER */
+
+.socialmedia    {
+    text-align: center;
+}
+
+ /* SLIDESHOW */
+
+ * {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

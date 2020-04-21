@@ -1,0 +1,58 @@
+body    {
+    width: 1200px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li:hover {
+    background-color: #51545B;
+    font-size: 18px;
+    color: white;
+}
+
+/* IMAGE */
+
+img {
+    width: 500px;
+    height: 450px;
+    margin: 15px;
+}
+
+.wrapper    {
+    position: relative;
+    top: 45px;
+}
+
+.container1 {
+    float: left;
+}
+
+.container2 {
+    line-height: 35px;
+    padding-top: 75px;
+    background-color: #51545B;
+    color: white;
+    padding: 15px;
+}
+
+.price  {
+    font-weight: bold;
+}

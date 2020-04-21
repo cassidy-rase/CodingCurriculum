@@ -1,0 +1,49 @@
+body    {
+    width: 1200px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+    position: relative;
+    left: 90px;
+}
+
+h1  {
+    color: #51545B;
+    text-align: center;
+}
+
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li:hover {
+    background-color: #51545B;
+    font-size: 18px;
+    color: white;
+}
+
+/* IMAGE STYLES */
+
+img:hover   {
+    border: 5px solid #51545B;
+}
